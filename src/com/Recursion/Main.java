@@ -8,6 +8,9 @@ public class Main {
     int[] arr = {1,2,3,4,5};
     List<List<Integer>> list = subsets(arr);
         System.out.println(list);
+        for(List<Integer> list2:list){
+            System.out.println(list2);
+        }
     }
     public static List<List<Integer>> subsets(int[] arr){
         List<List<Integer>> outer = new ArrayList<>();
